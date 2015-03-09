@@ -129,3 +129,5 @@ IF(UNIX)
     ENDIF()
   ENDIF()
 ENDIF()
+
+ADD_SUBDIRECTORY(${CMAKE_SOURCE_DIR}/scripts) # Added by request of 1.3.
